@@ -430,6 +430,8 @@
       jQuery(function() {
           jQuery("img.lazy").lazyload({effect: "fadeIn"});
       });
+	  
+	  jQuery.get('https://luckhut.com/wx?method=luckhut-access&url=' + window.encodeURIComponent(document.URL.split('#')[0]));
     </script>
 </body>
 <html>
